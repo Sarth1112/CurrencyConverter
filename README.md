@@ -1,2 +1,7 @@
-# CurrencyConverter
- 
+The Currency_Converter program is a graphical user interface (GUI) application developed using Java's Swing framework. Designed to facilitate currency conversion, the application provides users with an intuitive interface comprising labels, text fields, combo boxes, and buttons. Users can input the amount they wish to convert, select the source and target currencies from drop-down lists, and then click the 'Convert' button to perform the conversion. The interface is laid out using a grid layout, ensuring a neat and organized arrangement of components.
+
+![p1](https://github.com/Sarth1112/CurrencyConverter/assets/157765817/9f9445da-779a-4556-8dfa-738de82f1410)
+
+At the core of the program, the conversion logic relies on predefined exchange rates for a selection of nine major currencies: USD, EUR, JPY, GBP, CAD, AUD, CHF, CNY, and INR. These exchange rates are stored in an array and used to compute the conversion rate between any two selected currencies. When the user initiates a conversion, the program fetches the relevant exchange rates, calculates the converted amount, and displays the result in a formatted manner, making use of the DecimalFormat class to ensure the output is user-friendly and precise.
+
+The functionality of the Currency_Converter is further enhanced by robust error handling. The program includes mechanisms to catch and handle invalid inputs gracefully, such as non-numeric values in the amount field. If an invalid input is detected, the application alerts the user by displaying an "Invalid input" message, ensuring a seamless user experience. Overall, the Currency_Converter provides a practical and accessible tool for users needing quick and reliable currency conversions, demonstrating efficient use of Java's Swing components and event handling capabilities.
